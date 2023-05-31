@@ -100,4 +100,4 @@ def close_account():
     return jsonify({"message": "Account and user successfully removed"}), 200
 
 if __name__ == '__main__':
-    app.run(host="34.84.134.241")
+    app.run(host="34.84.134.241", debug=False)
